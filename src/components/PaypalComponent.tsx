@@ -64,17 +64,17 @@ const PaypalComponent = () => {
             <AccordionPanel >
               <AccordionTitle className='!font-kodchasan-semi !text-2xl'>Skill Sets/ Requirements</AccordionTitle>
               <AccordionContent className='!font-kodchasan-semi'>
-                <p>Requirements I know:</p>
+                <p className="text-xl">Requirements I know:</p>
                 <ul className='list-disc pl-5'>
                   <li> React</li>
                 </ul>
-                <p>Need to Learn:</p>
+                <p className="text-xl">Need to Learn:</p>
                 <ul className='list-disc pl-5'>
                   <li>
                     NextJS, Java, Have solid grounding of UI Design fundamentals
                   </li>
                 </ul>
-                <p>Do I currently have to skillset for this job?</p>
+                <p className="text-xl">Do I currently have to skillset for this job?</p>
                 <ul className='list-disc pl-5'>
                   <li>No, I would have to learn Java and I'm not confident in my fundamentals with UI.</li>
                 </ul>

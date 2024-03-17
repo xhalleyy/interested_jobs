@@ -55,17 +55,17 @@ const MplnComponent = () => {
                     <AccordionPanel >
                         <AccordionTitle className='!font-kodchasan-semi !text-2xl'>Skill Sets/ Requirements</AccordionTitle>
                         <AccordionContent className='!font-kodchasan-semi'>
-                            <p>Requirements I know:</p>
+                            <p className="text-xl">Requirements I know:</p>
                             <ul className='list-disc pl-5'>
                                 <li> C#, .NET, JavaScript, React</li>
                             </ul>
-                            <p>Need to Learn:</p>
+                            <p className="text-xl">Need to Learn:</p>
                             <ul className='list-disc pl-5'>
                                 <li>
                                     Need to further familiarize myself with Model-View-Controller and Node.js, Learn AngularJS, learn and get accustomed to SQL database design concepts, T-SQL queries, and SQL Server Reporting Services.
                                 </li>
                                     </ul>
-                            <p>Do I currently have to skillset for this job?</p>
+                            <p className="text-xl">Do I currently have to skillset for this job?</p>
                             <ul className='list-disc pl-5'>
                                 <li>I think if we’re not including the required experience, then after the course, probably so. That is, if we cover Angular and get more into SQL.</li>
                             </ul>

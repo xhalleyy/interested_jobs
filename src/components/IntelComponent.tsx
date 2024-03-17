@@ -57,17 +57,17 @@ const IntelComponent = () => {
                     <AccordionPanel >
                         <AccordionTitle className='!font-kodchasan-semi !text-2xl'>Skill Sets/ Requirements</AccordionTitle>
                         <AccordionContent className='!font-kodchasan-semi'>
-                            <p>Requirements I know:</p>
+                            <p className="text-xl">Requirements I know:</p>
                             <ul className='list-disc pl-5'>
                                 <li>Knowledge in CI/CD like GitHub, .NET, #C</li>
                             </ul>
-                            <p>Need to Learn:</p>
+                            <p className="text-xl">Need to Learn:</p>
                             <ul className='list-disc pl-5'>
                                 <li>
                                     Familiarize more with Git, computer architecture, Tensorflow, PyTorch, etc. Learn Phyton, C++, machine learning and data mining
                                 </li>
                             </ul>
-                            <p>Do I currently have to skillset for this job?</p>
+                            <p className="text-xl">Do I currently have to skillset for this job?</p>
                             <ul className='list-disc pl-5'>
                                 <li>Absolutely not. This would be a job and new experience, but I don't know much about computer architecture to be employed for this job.</li>
                             </ul>
