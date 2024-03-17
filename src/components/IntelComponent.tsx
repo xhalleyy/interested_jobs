@@ -64,7 +64,7 @@ const IntelComponent = () => {
                             <p className="text-xl">Need to Learn:</p>
                             <ul className='list-disc pl-5'>
                                 <li>
-                                    Familiarize more with Git, computer architecture, Tensorflow, PyTorch, etc. Learn Phyton, C++, machine learning and data mining
+                                    Familiarize more with Git, computer architecture, Tensorflow, PyTorch, etc. Learn Python, C++, machine learning and data mining
                                 </li>
                             </ul>
                             <p className="text-xl">Do I currently have to skillset for this job?</p>
