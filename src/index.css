@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  @font-face {
+      font-family: kodchasan-reg;
+      src: url(./assets/Kodchasan-Regular.ttf);
+  }
+
+  @font-face {
+      font-family: kodchasan-medium;
+      src: url(./assets/Kodchasan-Medium.ttf);
+  }
+
+  @font-face {
+      font-family: kodchasan-semi;
+      src: url(./assets/Kodchasan-SemiBold.ttf);
+  }
+
+  @font-face {
+      font-family: kodchasan-bold;
+      src: url(./assets/Kodchasan-Bold.ttf);
+  }
+}
+
+@layer base {
+  .font-outline-1 {
+    -webkit-text-stroke: 1px black;
+  }
+  .font-outline-4 {
+    -webkit-text-stroke: 4px black;
+  }
+}
